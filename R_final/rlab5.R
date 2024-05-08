@@ -4,7 +4,7 @@ library(dplyr)
 library(plotly)
 
 # Step 1: Read Titanic dataset
-titanic <- read.csv("train.csv")
+titanic <- read.csv("R_final\\train.csv")
 
 # Convert factor levels
 titanic$Survived <- factor(titanic$Survived, levels = c("0", "1"))

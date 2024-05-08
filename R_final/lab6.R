@@ -10,8 +10,7 @@ agg_data <- merged_data %>%
 print(agg_data)
 
 
-filt_data <- merged_data %>% 
-             filter(Age > 25)
+filt_data <- filter(merged_data ,Age > 25)
 print(filt_data)
 
 
