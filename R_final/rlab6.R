@@ -31,3 +31,4 @@ if (!inherits(response, "error")) {
   print(coins)
 } else {
   cat("Failed to connect to the website. Please check your internet connection or the URL.\n")
+}
